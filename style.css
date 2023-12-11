@@ -3,7 +3,7 @@
 }
 
 .main-page-wrapper {
-    background: url("/img/1.jpg") center top no-repeat, url("/img/2.png") right bottom no-repeat,#001821;
+    background: url("/my-project-AirAsia/img/1.jpg") center top no-repeat, url("/my-project-AirAsia/img/2.png") right bottom no-repeat,#001821;
 }
 
 body {
@@ -328,11 +328,11 @@ vertical-align: middle;
     vertical-align: top;
     width: 488px;
     height: 502px;
-    background: url("/img/gates.jpg") center center / cover no-repeat;
+    background: url("/my-project-AirAsia/img/gates.jpg") center center / cover no-repeat;
 }
 
 .about__content {
-    background: url("/img/mountains.jpg") center center / cover no-repeat;
+    background: url("/my-project-AirAsia/img/mountains.jpg") center center / cover no-repeat;
     padding: 80px 98px;
     display: inline-block;
     vertical-align: top;
