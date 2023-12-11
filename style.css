@@ -1,0 +1,391 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-page-wrapper {
+    background: url("/img/1.jpg") center top no-repeat, url("/img/2.png") right bottom no-repeat,#001821;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    background: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+address {
+    font-style: normal;
+
+}
+
+.contacts {
+    right: 0;
+    top: 15px;
+    text-align: right;
+}
+
+.contacts__text {
+    color: #9A9A9A;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.contacts__graph{
+    color: #FFF;
+    font-size: 11px;
+}
+
+.contacts__tel {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    font-size: 26px;
+    margin-bottom: -7px;
+}
+
+.contacts__graph {
+    font-size: 13px;
+    text-decoration-line: underline;
+}
+
+ul , li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1141px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 123px;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.logo , .menu , .contacts {
+    position: absolute;
+}
+
+.logo{
+    display: block;
+    top: 29px;
+}
+
+.logo__icon{
+    width: 85px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.menu {
+    left: 200px;
+    top: 42px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu__link{
+    color: #FFF;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+.preview {
+    width: 511px;
+    margin-bottom: 236px;
+}
+
+.preview__title {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.preview__subtitle {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+
+.button {
+    border-radius: 35px;
+    background: #F5170E;
+    width: 168px;
+    height: 55px;
+
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button--border {
+    background: transparent;
+    border-color: #F5170E;
+    color: #F5170E;
+}
+.hot-tours {
+    margin-bottom: 120px;
+}
+
+.hot-tours__title-text {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.hot-tours__title-icon {
+    width: 21px;
+    height: 28px;
+}
+
+.hot-tours__item {
+    background:#FFF;;
+    width: 350px;
+    display: inline-block;
+    
+    margin-right: 27px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.hot-tours__item last-child {
+    margin-right: 0;
+}
+
+.hot-tours__content {
+    padding: 36px 30px;
+    margin-bottom: 40px;
+}
+
+.hot-tours__picture {
+    width: 350px;
+    height: 144px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.hot-tours__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hot-tours__option-icon {
+    margin-right: 5px;
+    width: 26px;
+    height: 26px;
+}
+
+.hot-tours__option-text {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hot-tours__text {
+    color: #303030;
+    font-size: 14px;
+    font-weight: 400;
+    width: 324px;
+    margin-bottom: 24px;
+}
+
+.hot-tours__option-page {
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 20px;
+}
+
+.hot-tours__button {
+    margin-bottom: 26px;
+    width: 135px;
+    height: 55px;
+    border-radius: 35px;
+}
+
+.news {
+    margin-bottom: 55px;
+}
+
+.news__title {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 51px;
+}
+
+.news__item {
+    width: 540px;
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: top;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.news__item last-child {
+    margin-right: 0;
+}
+
+.news__image {
+    width: 557px;
+    height: 394px;
+    border-radius: 5px;
+}
+
+.news__content {
+    padding: 0 37px;
+    bottom: 0;
+    margin-bottom: 47px;
+    position: absolute;
+    color: #FFF;
+}
+
+.news__date {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.news__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.paginator {
+    text-align: center;
+   
+    margin-bottom: 150px;
+}
+
+.paginator__display,.paginator__list {
+display: inline-block;
+vertical-align: middle;
+}
+
+.paginator__display {
+    color: #fff;
+    margin-right: 26px;
+}
+
+.paginator__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paginator__link {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 32px;
+    background: transparent;
+    font-size: 16px;
+    color: #fff;
+
+    transition: .4s;
+}
+
+.paginator__link:hover{
+    color: #F5170E;
+    background: #FFF;
+}
+
+.about {
+    margin-bottom: 100px;
+}
+
+.about:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 488px;
+    height: 502px;
+    background: url("/img/gates.jpg") center center / cover no-repeat;
+}
+
+.about__content {
+    background: url("/img/mountains.jpg") center center / cover no-repeat;
+    padding: 80px 98px;
+    display: inline-block;
+    vertical-align: top;
+    width: 780px;
+    height: 455px;
+    margin-left: -140px;
+    margin-top: 98PX;
+}
+
+.about__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.about__text {
+    margin-bottom: 42px;
+}
+
+.footer-container__content {
+    border-top: 1px solid
+}
+
+.footer {
+    position: relative;
+    height: 152px;
+}
+
+.socials{
+    position: absolute;
+    top: 29px;
+    right: 300px;
+    margin-bottom: 61px;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__icon {
+    width: 36px;
+    height: 36px;
+}
+
