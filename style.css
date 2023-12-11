@@ -188,7 +188,7 @@ ul , li {
     border-radius: 0px 0px 5px 5px;
 }
 
-.hot-tours__item last-child {
+.hot-tours__item:last-child {
     margin-right: 0;
 }
 
@@ -266,8 +266,8 @@ ul , li {
     overflow: hidden;
 }
 
-.news__item last-child {
-    margin-right: 0;
+.news__item:last-child {
+    margin-right: 0px;
 }
 
 .news__image {
