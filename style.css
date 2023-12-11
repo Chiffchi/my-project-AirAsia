@@ -112,6 +112,7 @@ ul , li {
 .preview {
     width: 511px;
     margin-bottom: 236px;
+    margin-top: -54px;
 }
 
 .preview__title {
@@ -148,8 +149,7 @@ ul , li {
     color: #F5170E;
 }
 .hot-tours {
-    margin-bottom: 120px;
-    margin-bottom: 50px;
+    margin-bottom: 126px;
 }
 
 .hot-tours__title-text {
@@ -167,8 +167,9 @@ ul , li {
 .hot-tours__item {
     background:#FFF;;
     width: 350px;
+    height: 450px;
     display: inline-block;
-    
+    margin-top: 51px;
     margin-right: 27px;
     border-radius: 0px 0px 5px 5px;
 }
@@ -192,6 +193,7 @@ ul , li {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
+    margin-top: -7px;
 }
 
 .hot-tours__option-icon {
