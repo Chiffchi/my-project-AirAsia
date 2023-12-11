@@ -135,7 +135,6 @@ ul , li {
     background: #F5170E;
     width: 168px;
     height: 55px;
-
     text-transform: uppercase;
     color: #fff;
     font-size: 14px;
@@ -147,7 +146,22 @@ ul , li {
     background: transparent;
     border-color: #F5170E;
     color: #F5170E;
+    width: 131px;
+    height: 57px;
 }
+
+.button--click {
+    border-radius: 35px;
+    background: #F5170E;
+    width: 131px;
+    height: 57px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 .hot-tours {
     margin-bottom: 126px;
 }
@@ -243,9 +257,9 @@ ul , li {
 }
 
 .news__item {
-    width: 540px;
+    width: 556px;
     display: inline-block;
-    margin-right: 0;
+    margin-right: 9px;
     vertical-align: top;
     position: relative;
     border-radius: 4px;
