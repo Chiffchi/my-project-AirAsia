@@ -236,7 +236,11 @@ ul , li {
 
 .hot-tours__option-page {
     display: inline-block;
-    margin-right: 0;
+    margin-right: 25px;
+}
+
+.hot-tours__option-page:last-child {
+    margin: 0;
 }
 
 .hot-tours__button {
