@@ -166,6 +166,10 @@ ul , li {
     margin-bottom: 126px;
 }
 
+.hot-tours__title {
+    margin-bottom: 51px;
+}
+
 .hot-tours__title-text {
     color: #FFF;
     font-size: 36px;
@@ -183,7 +187,6 @@ ul , li {
     width: 350px;
     height: 450px;
     display: inline-block;
-    margin-top: 51px;
     margin-right: 27px;
     border-radius: 0px 0px 5px 5px;
 }
