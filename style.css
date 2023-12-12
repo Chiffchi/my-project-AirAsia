@@ -103,6 +103,10 @@ ul , li {
     margin-right: 50px;
 }
 
+.menu__item:last-child {
+    margin-right: 0;
+}
+
 .menu__link{
     color: #FFF;
     font-size: 14px;
