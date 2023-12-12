@@ -3,7 +3,7 @@
 }
 
 .main-page-wrapper {
-    background: url("/my-project-AirAsia/img/1.jpg") center top no-repeat, url("/my-project-AirAsia/img/2.png") right bottom no-repeat,#001821;
+    background: url("/my-project-AirAsia/img/1.jpg") center top no-repeat, url("/my-project-AirAsia/img/2.png") right bottom 186px no-repeat,#001821;
 }
 
 body {
@@ -351,6 +351,7 @@ vertical-align: middle;
     width: 488px;
     height: 502px;
     background: url("/my-project-AirAsia/img/gates.jpg") center center / cover no-repeat;
+    border-radius: 5px;
 }
 
 .about__content {
@@ -362,6 +363,7 @@ vertical-align: middle;
     height: 455px;
     margin-left: -140px;
     margin-top: 98PX;
+    border-radius: 5px;
 }
 
 .about__title {
