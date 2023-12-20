@@ -22,7 +22,7 @@ body, html {
 
 
 .main-page-wrapper {
-    background: url("/img/1.jpg") center top no-repeat, url("/img/2.png") center bottom 186px no-repeat,#001821;
+    background: url("./img/1.jpg") center top no-repeat, url("./img/2.png") center bottom 186px no-repeat,#001821;
 }
 
 body {
@@ -441,12 +441,12 @@ margin-right: 36px;
     display: block;
     width: 488px;
     height: 502px;
-    background: url("/img/gates.jpg") center center / cover no-repeat;
+    background: url("./img/gates.jpg") center center / cover no-repeat;
     border-radius: 5px;
 }
 
 .about__content {
-    background: url("/img/mountains.jpg") center center / cover no-repeat;
+    background: url("./img/mountains.jpg") center center / cover no-repeat;
     padding: 80px 81px;
     max-width: 789px;
     height: 455px;
