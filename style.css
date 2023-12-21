@@ -92,7 +92,6 @@ ul , li {
 .container {
     width: 1141px;
     margin: 0 auto;
-    padding: 32px 0px;
 }
 
 .top__container {
@@ -106,7 +105,13 @@ ul , li {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 179px;   
+    margin-bottom: 179px;  
+    align-items: center; 
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
 }
 
 .logo , .menu , .contacts {
@@ -128,7 +133,7 @@ ul , li {
 }
 
 .menu {
-    margin-top: 9px;
+    margin-top: 0;
    
 }
 
@@ -290,7 +295,7 @@ ul , li {
 
 
 .hot-tours__option {
-    margin-bottom: 20px;
+    margin-bottom: 27px;
     display: flex;
 }
 
@@ -371,7 +376,6 @@ ul , li {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 146px;
     color: #FFF;
 }
 
@@ -433,6 +437,7 @@ margin-right: 36px;
 .about {
     display: flex;
     margin-bottom: 53px;
+    margin-top: 145px;
 }
 
 .about:before {
@@ -481,8 +486,7 @@ margin-right: 36px;
 
 .footer {
     position: relative;
-    height: 152px;
-    margin-top: -39px;
+    height: 145px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -539,6 +543,7 @@ margin-right: 36px;
     display: flex;
     flex-direction: column;
     margin-bottom: -3px;
+    padding: 32px 0px;
 }
 
 .top-line__container {
@@ -610,13 +615,17 @@ margin-right: 36px;
     color: #303030;
 }
 
+.service__content {
+    padding: 101px 0px;
+}
+
 .services__list {
-    margin-top: 70px;
+    margin-bottom: 11px;
 }
 
 .services__item {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 0;
     align-items: flex-start;
 }
 
@@ -624,17 +633,20 @@ margin-right: 36px;
     width: 460px;
     margin-right: 60px;
     height: 333px;
+    margin-bottom: 51px;
 }
 
-.servies__content {
+
+.services__content {
     flex: 1;
+    margin-top: 10px;
 }
 
 .services__title {
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 32px;
-    margin-top: 10px;
+    margin-bottom: 34px;
+    
 }
 
 .servies__desc {
@@ -673,11 +685,10 @@ margin-right: 36px;
 .partners {
     background: #F4F5F5;
     color: #303030;
-    margin-top: -136px;
 }
 
 .partners__container {
-    padding: 88px  0px;
+    padding: 55px  0px;
 }
 
 
@@ -690,9 +701,6 @@ margin-right: 36px;
 .partners__list {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 100px;
-    margin-top: -110px;
-    
 }
 .partners__item {
     margin-left: 46px;
