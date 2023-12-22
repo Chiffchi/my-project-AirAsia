@@ -691,32 +691,30 @@ margin-right: 36px;
 }
 
 .partners__container {
-    padding: 68px 0px;
+    padding: 74px 0px;
 }
 
 
 .partners__title {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 77px;
 }
 
 .partners__list {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: -25px;
 }
 .partners__item {
-    margin-left: 75px;
-    margin-top: 65px;
+    display: flex;
+    flex-basis: 253px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
 }
 
-.partners__item:nth-child(4n+1) {
-    margin-left: 0;
-}
-
-.partners__item:nth-child(4) {
-    margin-left: 146px;
-}
 
 .partners__link {
     text-decoration: none;
