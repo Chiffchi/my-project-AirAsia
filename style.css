@@ -7,8 +7,7 @@ img {
     max-width: 100%;
 }
 
-body,
-html {
+body, html {
     height: 100%;
     background-color: #001821;
 }
@@ -90,6 +89,7 @@ address {
     font-size: 13px;
     text-decoration-line: underline;
     color: #98A4A8;
+    position: relative;
 
 }
 
@@ -102,7 +102,7 @@ address {
 }
 
 .contacts__graph-menu {
-    top: 86px;
+    top: 27px;
     width: 160px;
     height: 80px;
     background: #CDD1D2;
@@ -112,7 +112,7 @@ address {
     position: absolute;
     display: none;
     transition: 0.4s;
-    right: 20%;
+    right: 0;
 }
 
 .contacts__graph-menu::before {
@@ -1098,6 +1098,10 @@ li {
     margin-bottom: 0;
 }
 
+.form__row:nth-last-child(2) {
+    margin-bottom: 0;
+}
+
 .form__row--right {
     justify-content: flex-end;
     margin-top: 50px;
@@ -1121,7 +1125,7 @@ input[type='text'],
 input[type='url'],
 textarea {
     height: 65px;
-    padding: 30px 36px;
+    padding: 0 36px;
     background-color: #fff;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -1134,7 +1138,14 @@ textarea {
 
 textarea {
     min-height: 235px;
+    min-width: 1142px;
 }
+
+.textarea__theme {
+    padding: 29px 30px;
+}
+
+
 
 input[type='text']:focus,
 input[type='url']:focus,
@@ -1142,6 +1153,7 @@ textarea:focus {
     border: 1px solid #F5170E;
     outline: 0;
 }
+
 
 .tag__list {
     display: flex;
